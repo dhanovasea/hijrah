@@ -1,0 +1,8 @@
+{
+  "name": "Hijrah Adventure — Perjalanan Menuju Madinah",
+  "description": "Media Pembelajaran Interaktif Pendidikan Agama Islam (PAI) Kelas 4 SD tentang Kisah Hijrah Nabi Muhammad SAW ke Madinah dengan cerita visual, peta interaktif, game edukatif, dan evaluasi LOTS-MOTS-HOTS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

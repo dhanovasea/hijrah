@@ -1,0 +1,767 @@
+Berikut prompt lengkap yang bisa langsung kamu salin ke Google AI Studio untuk membuat media pembelajaran interaktif PAI kelas 4 SD tentang Kisah Hijrah Nabi Muhammad SAW ke Madinah. Saya susun agar hasilnya bukan sekadar materi bacaan, tetapi seperti aplikasi belajar anak yang memiliki cerita visual, video pendek, game, evaluasi LOTS–MOTS–HOTS, dan worksheet yang bisa dikerjakan langsung.
+
+Saya juga memasukkan instruksi khusus agar gambar dan video terasa seperti ilustrasi sejarah yang alami, bukan visual AI yang aneh atau terlalu artifisial. Untuk penggambaran Nabi Muhammad SAW, aplikasi harus menggunakan simbol visual yang santun tanpa memperlihatkan wajah atau sosok beliau.
+
+## Prompt Google AI Studio
+
+# PROJECT: HIJRAH ADVENTURE
+
+## Media Pembelajaran Interaktif PAI Kelas 4 SD
+
+### Materi: Kisah Hijrah Nabi Muhammad SAW ke Madinah
+
+Bertindaklah sebagai gabungan dari:
+
+1. Senior Frontend Developer yang ahli membuat web app pendidikan interaktif.
+2. Guru Pendidikan Agama Islam (PAI) untuk siswa kelas 4 SD di Indonesia.
+3. Instructional Designer yang memahami pembelajaran berbasis cerita, gamifikasi, dan diferensiasi.
+4. Ilustrator buku sejarah anak dengan gaya visual realistis, hangat, alami, dan edukatif.
+5. Educational Assessment Specialist yang memahami LOTS, MOTS, dan HOTS.
+
+Bangun sebuah aplikasi web pembelajaran yang benar-benar berfungsi, menarik, responsif, dan mudah digunakan oleh anak kelas 4 SD.
+
+Nama aplikasi: **Hijrah Adventure — Perjalanan Menuju Madinah**
+
+Jangan hanya membuat desain atau prototype statis. Semua menu, tombol, kuis, game, navigasi, dan worksheet harus berfungsi.
+
+---
+
+# 1. TUJUAN PEMBELAJARAN
+
+Setelah menggunakan aplikasi, siswa diharapkan mampu:
+
+1. Menjelaskan pengertian hijrah Nabi Muhammad SAW.
+2. Mengetahui alasan Nabi Muhammad SAW dan kaum Muslimin berhijrah dari Makkah ke Madinah.
+3. Menyebutkan tokoh-tokoh penting dalam peristiwa hijrah.
+4. Menjelaskan peran Abu Bakar Ash-Shiddiq dalam perjalanan hijrah.
+5. Menjelaskan peristiwa persembunyian di Gua Tsur secara sederhana.
+6. Menjelaskan peran kaum Muhajirin dan Ansar.
+7. Memahami pembangunan masyarakat Islam di Madinah.
+8. Meneladani sikap sabar, berani, amanah, tawakal, persaudaraan, dan kerja sama.
+9. Menganalisis contoh penerapan nilai hijrah dalam kehidupan sehari-hari.
+
+Gunakan bahasa Indonesia yang sederhana, komunikatif, hangat, dan sesuai usia 9–10 tahun.
+
+Hindari paragraf yang terlalu panjang. Utamakan cerita, ilustrasi, pertanyaan pemantik, aktivitas, dan contoh kehidupan sehari-hari.
+
+---
+
+# 2. DESAIN VISUAL DAN PENGALAMAN PENGGUNA
+
+Buat tampilan seperti aplikasi belajar anak premium, bukan seperti website administrasi.
+
+Ketentuan desain:
+
+- Rasio tampilan responsif untuk laptop, tablet, dan smartphone.
+- Cocok untuk layar iPad maupun komputer kelas.
+- Gunakan palet warna pasir, krem, hijau zamrud, biru langit, dan cokelat lembut.
+- Gunakan font yang mudah dibaca anak.
+- Kartu materi dengan sudut membulat dan bayangan lembut.
+- Ikon sederhana dan ilustrasi yang relevan.
+- Animasi ringan ketika siswa menyelesaikan aktivitas.
+- Navigasi jelas, tombol cukup besar, dan teks mudah dibaca.
+- Hindari terlalu banyak teks dalam satu layar.
+- Sediakan progress bar untuk menunjukkan kemajuan belajar.
+- Sediakan tombol Home, Kembali, Lanjut, Ulangi, dan Petunjuk.
+- Simpan progres belajar sementara di browser menggunakan localStorage.
+- Jangan meminta siswa membuat akun atau memasukkan data pribadi.
+
+Buat halaman pembuka dengan judul:
+
+"Yuk, Belajar Kisah Hijrah Nabi Muhammad SAW!"
+
+Subjudul:\
+"Ikuti perjalanan bersejarah, temukan pelajarannya, dan kumpulkan bintang kebaikan!"
+
+Tambahkan tombol:
+
+- Mulai Petualangan
+- Lihat Tujuan Pembelajaran
+- Panduan Penggunaan
+
+---
+
+# 3. GAMBAR DAN VIDEO YANG ALAMI
+
+Ini adalah persyaratan penting.
+
+Gunakan gambar yang terasa seperti ilustrasi buku sejarah anak atau dokumentasi lanskap alami, bukan gambar AI yang berlebihan.
+
+Prioritaskan:
+
+1. Foto asli lanskap gurun Arab, pegunungan berbatu, gua, dan oasis.
+2. Foto atau ilustrasi arsitektur tradisional Arab yang masuk akal secara sejarah.
+3. Ilustrasi digital bergaya buku cerita anak dengan pencahayaan alami, tekstur realistis, anatomi normal, dan komposisi sederhana.
+4. Video dokumenter pendek atau animasi edukasi yang bersumber dari materi yang dapat digunakan secara sah.
+
+Hindari:
+
+- Wajah manusia yang cacat atau tidak alami.
+- Jari berlebihan, bentuk tubuh aneh, dan objek yang melayang.
+- Efek fantasi berlebihan.
+- Kostum yang tampak seperti film fantasi.
+- Bangunan modern pada adegan abad ke-7.
+- Kubah masjid modern yang tidak sesuai konteks waktu.
+- Kaligrafi atau tulisan Arab yang salah.
+- Visual yang memperlihatkan Nabi Muhammad SAW secara langsung.
+
+**Penghormatan terhadap Nabi Muhammad SAW:**\
+Jangan pernah menampilkan wajah, tubuh, siluet manusia yang dimaksudkan sebagai Nabi Muhammad SAW, atau visualisasi langsung sosok beliau. Gambarkan kehadiran beliau secara simbolis melalui lanskap, jalur perjalanan, pintu gua, jejak perjalanan, atau komposisi alam tanpa sosok yang mewakili beliau.
+
+Jangan menggambarkan Allah SWT dalam bentuk visual apa pun.
+
+Untuk sahabat Nabi dan tokoh sejarah lainnya, gunakan ilustrasi yang sopan dan tidak mengklaim sebagai representasi wajah autentik tokoh sejarah.
+
+Jika menggunakan foto atau video dari internet, prioritaskan sumber tepercaya dan pastikan lisensinya mengizinkan penggunaan yang direncanakan.
+
+Jangan mengarang URL gambar atau video. Jika aset tidak tersedia, tampilkan placeholder yang rapi dengan keterangan "Media belum tersedia" dan tombol untuk mencoba kembali.
+
+---
+
+# 4. STRUKTUR MENU APLIKASI
+
+Buat delapan bagian utama:
+
+1. Beranda
+2. Kenali Kisah Hijrah
+3. Cerita Bergambar
+4. Tonton Video
+5. Peta Perjalanan
+6. Game Hijrah Adventure
+7. Worksheet dan Evaluasi
+8. Hasil Belajarku
+
+Setiap bagian dapat dibuka secara mandiri dan memiliki tombol navigasi yang berfungsi.
+
+---
+
+# 5. MATERI PEMBELAJARAN
+
+Susun materi dalam beberapa bab pendek.
+
+## Bab 1 — Apa Itu Hijrah?
+
+Jelaskan bahwa hijrah dalam kisah ini adalah perpindahan Nabi Muhammad SAW dan kaum Muslimin dari Makkah menuju Madinah demi menjaga agama dan menjalankan kehidupan beragama dengan lebih aman.
+
+Jelaskan bahwa peristiwa hijrah Nabi Muhammad SAW terjadi pada tahun 622 Masehi dan menjadi awal penanggalan Hijriah.
+
+Tambahkan pertanyaan pemantik:
+
+"Menurutmu, mengapa seseorang terkadang harus meninggalkan tempat yang sudah dikenalnya demi tujuan yang baik?"
+
+Berikan tiga pilihan jawaban dan umpan balik yang mendidik.
+
+## Bab 2 — Mengapa Kaum Muslimin Berhijrah?
+
+Jelaskan dengan bahasa anak-anak:
+
+- Kaum Muslimin mengalami tekanan dan gangguan di Makkah.
+- Penduduk Yatsrib menerima ajaran Islam dan memberikan dukungan.
+- Hijrah membuka kesempatan untuk membangun kehidupan masyarakat Muslim yang lebih aman.
+- Hijrah bukan sekadar pindah rumah, tetapi membutuhkan keberanian, kesabaran, dan perencanaan.
+
+Jangan menyederhanakan sejarah menjadi cerita bahwa semua penduduk Makkah atau semua orang Quraisy memiliki perilaku yang sama.
+
+## Bab 3 — Siapa Saja Tokoh Pentingnya?
+
+Buat kartu tokoh interaktif:
+
+A. Nabi Muhammad SAW\
+Jelaskan peran beliau sebagai Rasulullah yang memimpin perjalanan hijrah. Jangan tampilkan visual langsung sosok beliau.
+
+B. Abu Bakar Ash-Shiddiq\
+Jelaskan bahwa beliau menemani Nabi Muhammad SAW dalam perjalanan hijrah.
+
+C. Ali bin Abi Thalib\
+Jelaskan perannya dalam membantu urusan yang ditinggalkan di Makkah, termasuk mengembalikan barang-barang titipan kepada pemiliknya.
+
+D. Asma binti Abu Bakar\
+Jelaskan perannya dalam membantu menyediakan dan mengantarkan bekal.
+
+E. Abdullah bin Abu Bakar\
+Jelaskan perannya dalam menyampaikan informasi yang diperlukan selama masa persembunyian.
+
+F. Amir bin Fuhairah\
+Jelaskan perannya membantu perjalanan, termasuk menggembalakan ternak sehingga jejak kaki dapat tersamarkan.
+
+G. Abdullah bin Uraiqit\
+Jelaskan bahwa ia menjadi penunjuk jalan dalam perjalanan, meskipun saat itu belum memeluk Islam menurut riwayat sejarah yang umum dikenal.
+
+H. Kaum Ansar\
+Penduduk Madinah yang menyambut dan membantu kaum Muslimin yang berhijrah.
+
+I. Kaum Muhajirin\
+Kaum Muslimin yang berhijrah dari Makkah.
+
+Setiap kartu mempunyai:
+
+- Nama tokoh.
+- Peran dalam peristiwa hijrah.
+- Ilustrasi yang sopan.
+- Tombol "Pelajari Perannya".
+- Pertanyaan singkat setelah kartu dibuka.
+
+Pastikan tidak mencampuradukkan nama, peran, dan urutan peristiwa.
+
+## Bab 4 — Perjalanan Hijrah dan Gua Tsur
+
+Buat cerita kronologis dalam beberapa adegan:
+
+1. Persiapan meninggalkan Makkah.
+2. Nabi Muhammad SAW dan Abu Bakar menuju Gua Tsur.
+3. Masa persembunyian di Gua Tsur.
+4. Melanjutkan perjalanan melalui jalur yang tidak biasa dengan bantuan penunjuk jalan.
+5. Tiba di Quba.
+6. Melanjutkan perjalanan ke Yatsrib yang kemudian dikenal sebagai Madinah.
+
+Jelaskan bahwa perjalanan tersebut penuh tantangan dan membutuhkan perencanaan.
+
+Ketika membahas Gua Tsur, jelaskan kisah dengan bahasa sederhana dan penuh penghormatan. Jangan menambahkan percakapan atau detail sejarah yang tidak memiliki dasar yang dapat dipertanggungjawabkan.
+
+Buat timeline interaktif. Ketika siswa menekan suatu adegan, tampilkan gambar, narasi singkat, dan satu pertanyaan.
+
+## Bab 5 — Tiba di Madinah
+
+Jelaskan:
+
+- Sambutan masyarakat Madinah.
+- Persaudaraan kaum Muhajirin dan Ansar.
+- Pembangunan Masjid Nabawi sebagai pusat ibadah dan kegiatan masyarakat.
+- Pentingnya saling membantu, persaudaraan, dan hidup berdampingan.
+
+Tunjukkan bahwa hijrah menjadi awal penting bagi perkembangan masyarakat Islam di Madinah.
+
+## Bab 6 — Hikmah Hijrah
+
+Buat kartu nilai teladan:
+
+- Sabar menghadapi kesulitan.
+- Berani melakukan hal yang benar.
+- Amanah dan dapat dipercaya.
+- Bertawakal kepada Allah SWT sambil berusaha dan membuat perencanaan.
+- Bekerja sama.
+- Menolong sesama.
+- Menghormati orang lain.
+- Menjaga persaudaraan.
+
+Berikan contoh nyata:
+
+- Membantu teman baru di kelas.
+- Menepati janji.
+- Berusaha belajar meskipun sulit.
+- Bekerja sama dalam tugas kelompok.
+- Menolong teman yang membutuhkan tanpa mengejeknya.
+
+Akhiri materi dengan pertanyaan refleksi:\
+"Jika kamu menjadi salah satu orang yang membantu teman baru di sekolah, nilai hijrah apa yang sedang kamu praktikkan?"
+
+---
+
+# 6. GALERI CERITA BERGAMBAR INTERAKTIF
+
+Buat galeri minimal delapan adegan:
+
+1. Lanskap Kota Makkah pada masa awal Islam.
+2. Perjalanan menuju Gua Tsur.
+3. Lanskap dan pintu Gua Tsur.
+4. Perjalanan melintasi gurun dan pegunungan.
+5. Oasis dan permukiman di sekitar Madinah.
+6. Penyambutan kaum Muhajirin oleh kaum Ansar.
+7. Suasana pembangunan masyarakat Madinah.
+8. Ilustrasi persaudaraan dan kerja sama anak-anak masa kini.
+
+Untuk setiap gambar:
+
+- Tambahkan judul.
+- Tambahkan narasi 2–4 kalimat.
+- Tambahkan tombol untuk melihat detail.
+- Tambahkan pertanyaan interaktif.
+- Tampilkan fakta sejarah yang sesuai.
+- Berikan teks alternatif untuk aksesibilitas.
+
+Gunakan efek zoom ringan atau pergantian gambar yang halus.
+
+Jika gambar dapat diperbesar, pastikan tombol tutup dan kembali berfungsi.
+
+Jangan menempatkan tulisan Arab yang dihasilkan secara tidak akurat di dalam gambar.
+
+---
+
+# 7. VIDEO PENDEK PEMBELAJARAN
+
+Buat bagian video dengan target durasi sekitar 60–120 detik.
+
+Judul:\
+"Perjalanan Bersejarah: Hijrah Menuju Madinah"
+
+Konten video:
+
+- Pembukaan: situasi kaum Muslimin di Makkah.
+- Persiapan perjalanan.
+- Perjalanan menuju Gua Tsur.
+- Perjalanan melintasi gurun.
+- Kedatangan di Quba dan Madinah.
+- Pesan tentang kesabaran, amanah, tawakal, dan persaudaraan.
+
+Gaya video:
+
+- Dokumenter edukatif atau animasi buku cerita.
+- Lanskap alami dan pencahayaan realistis.
+- Transisi sederhana.
+- Musik latar lembut yang dapat dimatikan.
+- Narasi Bahasa Indonesia yang jelas dan tidak terlalu cepat.
+- Subtitle Bahasa Indonesia.
+- Tidak menampilkan sosok Nabi Muhammad SAW.
+- Tidak menggunakan adegan aksi yang berlebihan.
+
+IMPLEMENTASI:
+
+- Sediakan pemutar video HTML5 yang responsif.
+- Gunakan URL video asli yang dapat diakses dan memiliki izin penggunaan yang sesuai.
+- Jika tidak tersedia video yang terverifikasi, tampilkan tombol "Tonton Referensi Video" hanya setelah URL valid tersedia.
+- Jangan menampilkan video palsu atau tautan rekaan.
+- Sediakan storyboard dan naskah narasi sebagai alternatif ketika video tidak tersedia.
+- Jangan menjanjikan video telah dibuat jika aplikasi hanya menyediakan pemutar video.
+
+---
+
+# 8. PETA PERJALANAN HIJRAH
+
+Buat peta ilustratif interaktif yang menunjukkan:
+
+Makkah → Gua Tsur → Jalur perjalanan menuju Madinah → Quba → Madinah.
+
+Ketika siswa menekan setiap titik:
+
+- Tampilkan nama tempat.
+- Tampilkan keterangan singkat.
+- Tampilkan peristiwa yang berkaitan.
+- Tampilkan tombol "Lanjut ke Tempat Berikutnya".
+
+Beri label bahwa peta merupakan ilustrasi edukatif, bukan rekonstruksi rute dengan skala geografis yang presisi.
+
+Gunakan desain peta yang mudah dipahami anak. Jangan mengarang jarak, tanggal rinci, atau koordinat yang tidak diverifikasi.
+
+---
+
+# 9. GAME SEDERHANA: HIJRAH ADVENTURE
+
+Buat minimal tiga mini-game.
+
+## Game A — Susun Urutan Peristiwa
+
+Siswa mengurutkan enam kartu:
+
+- Persiapan hijrah.
+- Menuju Gua Tsur.
+- Persembunyian di Gua Tsur.
+- Melanjutkan perjalanan.
+- Tiba di Quba.
+- Tiba di Madinah.
+
+Gunakan drag-and-drop jika stabil. Jika tidak, sediakan tombol naik/turun untuk mengubah urutan.
+
+Setelah menekan "Periksa Jawaban", tampilkan hasil dan penjelasan.
+
+## Game B — Pasangkan Tokoh dan Perannya
+
+Pasangkan nama dengan peran yang benar:
+
+- Abu Bakar Ash-Shiddiq.
+- Ali bin Abi Thalib.
+- Asma binti Abu Bakar.
+- Abdullah bin Abu Bakar.
+- Abdullah bin Uraiqit.
+- Kaum Ansar.
+- Kaum Muhajirin.
+
+Sediakan tombol "Periksa Pasangan" dan "Ulangi Game".
+
+Jangan memberikan penalti yang membuat siswa merasa malu.
+
+## Game C — Misi Nilai Hijrah
+
+Tampilkan situasi sehari-hari dan minta siswa memilih tindakan yang tepat.
+
+Contoh:\
+"Teman baru di kelas belum memiliki teman bermain. Apa yang sebaiknya kamu lakukan?"
+
+Pilihan:\
+A. Membiarkannya sendiri.\
+B. Mengajaknya bergabung dan berkenalan.\
+C. Menertawakannya.
+
+Berikan umpan balik yang menjelaskan kaitannya dengan nilai persaudaraan dan kepedulian.
+
+Tambahkan sistem:
+
+- Bintang kebaikan.
+- Skor permainan.
+- Pesan penyemangat.
+- Tombol bermain ulang.
+- Ringkasan nilai teladan yang berhasil dipelajari.
+
+Tidak boleh ada leaderboard publik atau pengumpulan nama lengkap siswa.
+
+---
+
+# 10. WORKSHEET DAN EVALUASI
+
+Buat worksheet yang dapat dikerjakan langsung di aplikasi.
+
+Judul:\
+"Lembar Kerja Peserta Didik (LKPD): Kisah Hijrah Nabi Muhammad SAW ke Madinah"
+
+Data siswa:
+
+- Nama panggilan (opsional).
+- Kelas (opsional).
+- Tanggal pengerjaan.
+
+Sediakan dua bagian:\
+A. Pilihan Ganda — 10 soal.\
+B. Isian Singkat — 5 soal.
+
+Gunakan kategori LOTS, MOTS, dan HOTS sesuai ketentuan berikut.
+
+PILIHAN GANDA:
+
+- 2 soal LOTS.
+- 5 soal MOTS.
+- 3 soal HOTS.
+
+ISIAN SINGKAT:
+
+- 3 soal MOTS.
+- 2 soal HOTS.
+
+Jangan mengubah distribusi tersebut.
+
+## A. PILIHAN GANDA
+
+Buat tepat 10 soal, masing-masing mempunyai empat pilihan jawaban A, B, C, D.
+
+Soal 1 — LOTS\
+Apa yang dimaksud dengan hijrah Nabi Muhammad SAW dalam peristiwa ini?\
+A. Perjalanan berdagang ke Syam.\
+B. Perpindahan dari Makkah menuju Madinah.\
+C. Perjalanan untuk berlibur.\
+D. Perpindahan dari Madinah menuju Makkah.
+
+Kunci: B.
+
+Soal 2 — LOTS\
+Siapakah sahabat yang menemani Nabi Muhammad SAW dalam perjalanan hijrah?\
+A. Abu Bakar Ash-Shiddiq.\
+B. Umar bin Abdul Aziz.\
+C. Bilal bin Rabah.\
+D. Khalid bin Walid.
+
+Kunci: A.
+
+Soal 3 — MOTS\
+Mengapa kaum Muslimin melakukan hijrah dari Makkah?\
+A. Agar dapat menghindari kewajiban belajar.\
+B. Karena ingin mencari tempat wisata.\
+C. Untuk memperoleh kehidupan beragama yang lebih aman setelah mengalami tekanan.\
+D. Karena Madinah merupakan tempat kelahiran semua sahabat.
+
+Kunci: C.
+
+Soal 4 — MOTS\
+Di manakah Nabi Muhammad SAW dan Abu Bakar bersembunyi pada bagian awal perjalanan hijrah?\
+A. Gua Hira.\
+B. Gua Tsur.\
+C. Rumah di Quba.\
+D. Pasar Madinah.
+
+Kunci: B.
+
+Soal 5 — MOTS\
+Siapakah kaum Ansar?\
+A. Kaum Muslimin yang berhijrah dari Makkah.\
+B. Pedagang yang datang dari Syam.\
+C. Penduduk Madinah yang menolong kaum Muslimin yang berhijrah.\
+D. Orang-orang yang memusuhi kaum Muslimin.
+
+Kunci: C.
+
+Soal 6 — MOTS\
+Apa peran Abdullah bin Uraiqit dalam perjalanan hijrah menurut riwayat sejarah yang umum dikenal?\
+A. Menjadi penunjuk jalan.\
+B. Menjadi pemimpin kaum Ansar.\
+C. Menulis seluruh wahyu.\
+D. Membangun seluruh rumah di Madinah.
+
+Kunci: A.
+
+Soal 7 — MOTS\
+Mengapa perjalanan hijrah memerlukan perencanaan?\
+A. Agar perjalanan menjadi permainan.\
+B. Agar semua orang dapat berjalan tanpa tujuan.\
+C. Agar para musafir tidak perlu saling membantu.\
+D. Agar perjalanan dapat dilakukan dengan mempertimbangkan jalur, kebutuhan, dan tantangan.
+
+Kunci: D.
+
+Soal 8 — HOTS\
+Kamu memiliki teman baru yang pindah sekolah dan belum mengenal siapa pun. Tindakan mana yang paling sesuai dengan teladan kaum Ansar?\
+A. Memintanya mencari teman sendiri.\
+B. Mengajaknya berkenalan dan membantu mengenal lingkungan sekolah.\
+C. Menghindarinya karena belum dikenal.\
+D. Menertawakannya karena berbeda.
+
+Kunci: B.
+
+Soal 9 — HOTS\
+Dalam perjalanan kelompok, seorang teman mulai lelah. Kelompok tetap harus mencapai tujuan dengan aman. Tindakan mana yang paling menunjukkan kerja sama dan perencanaan?\
+A. Meninggalkannya agar kelompok cepat sampai.\
+B. Menyuruhnya terus berjalan tanpa istirahat.\
+C. Mengevaluasi kondisi, membantu teman, dan menyesuaikan perjalanan dengan aman.\
+D. Menghentikan semua kegiatan tanpa membicarakannya.
+
+Kunci: C.
+
+Soal 10 — HOTS\
+Apa pelajaran yang paling tepat dari peristiwa hijrah ketika menghadapi kesulitan dalam belajar?\
+A. Berhenti belajar jika hasil pertama kurang baik.\
+B. Menunggu orang lain menyelesaikan semua tugas.\
+C. Menghindari tantangan yang membutuhkan usaha.\
+D. Berusaha dengan sungguh-sungguh, membuat rencana, berdoa, dan meminta bantuan jika diperlukan.
+
+Kunci: D.
+
+## B. ISIAN SINGKAT
+
+Buat tepat lima soal.
+
+Soal 11 — MOTS\
+Sebutkan nama sahabat yang menemani Nabi Muhammad SAW dalam perjalanan hijrah.
+
+Kunci jawaban: Abu Bakar Ash-Shiddiq atau Abu Bakar.
+
+Soal 12 — MOTS\
+Apa nama gua tempat Nabi Muhammad SAW dan Abu Bakar bersembunyi pada awal perjalanan hijrah?
+
+Kunci jawaban: Gua Tsur.
+
+Soal 13 — MOTS\
+Apa sebutan bagi kaum Muslimin yang berhijrah dari Makkah ke Madinah?
+
+Kunci jawaban: Kaum Muhajirin.
+
+Soal 14 — HOTS\
+Jika ada teman baru yang membutuhkan bantuan, tuliskan satu tindakan yang dapat kamu lakukan untuk meneladani persaudaraan kaum Ansar.
+
+Contoh jawaban yang diterima:\
+Mengajak berkenalan, membantu menunjukkan ruang kelas, mengajaknya bermain, atau membantu sesuai kebutuhannya.
+
+Soal 15 — HOTS\
+Kamu mengalami kesulitan menyelesaikan tugas sekolah. Tuliskan dua tindakan yang menunjukkan usaha, perencanaan, dan tawakal.
+
+Contoh jawaban yang diterima:\
+Membagi tugas menjadi beberapa bagian, membuat jadwal belajar, mencoba kembali, meminta bantuan guru atau orang tua, dan berdoa kepada Allah SWT.
+
+Untuk soal 14 dan 15, gunakan penilaian berdasarkan makna jawaban, bukan pencocokan kata secara kaku.
+
+---
+
+# 11. SISTEM PENILAIAN
+
+Sediakan penilaian otomatis dan transparan.
+
+Pilihan ganda:
+
+- 10 soal.
+- Setiap jawaban benar mendapat 5 poin.
+- Total maksimal: 50 poin.
+
+Isian singkat:
+
+- 5 soal.
+- Setiap jawaban bernilai maksimal 10 poin.
+- Total maksimal: 50 poin.
+
+Nilai akhir:\
+Pilihan ganda + isian singkat = maksimal 100 poin.
+
+Untuk isian singkat:
+
+- Soal 11–13: nilai penuh jika inti jawaban benar.
+- Soal 14: nilai berdasarkan relevansi tindakan dan kesesuaiannya dengan nilai persaudaraan.
+- Soal 15: nilai berdasarkan dua tindakan yang masuk akal, relevan, dan menunjukkan usaha, perencanaan, atau tawakal.
+
+Buat sistem pemeriksaan isian singkat yang dapat menerima variasi jawaban yang setara.
+
+Jangan memberikan nilai nol hanya karena perbedaan huruf kapital, spasi, atau variasi ejaan kecil yang tidak mengubah makna.
+
+Untuk jawaban HOTS yang membutuhkan penilaian makna, gunakan rubrik sederhana yang transparan. Jika sistem tidak yakin, tandai sebagai "Perlu diperiksa guru" dan jangan menyatakan jawaban pasti salah.
+
+Tampilkan:
+
+- Skor pilihan ganda.
+- Skor isian singkat.
+- Nilai akhir.
+- Jumlah jawaban benar.
+- Kekuatan yang sudah dikuasai.
+- Materi yang perlu dipelajari kembali.
+- Saran belajar berikutnya.
+
+Gunakan kategori hasil:
+
+- 90–100: Hebat! Pemahamanmu sangat baik.
+- 80–89: Bagus! Sedikit lagi menjadi ahli hijrah.
+- 70–79: Terus berlatih, kamu semakin berkembang.
+- Di bawah 70: Jangan menyerah. Pelajari kembali cerita dan coba lagi.
+
+Kategori tersebut merupakan umpan balik pembelajaran, bukan penilaian terhadap karakter atau kecerdasan siswa.
+
+Sediakan tombol "Tinjau Jawaban" dan "Ulangi Worksheet".
+
+Jangan tampilkan kunci jawaban sebelum siswa mengirimkan seluruh jawabannya.
+
+---
+
+# 12. HASIL BELAJARKU
+
+Buat dashboard sederhana berisi:
+
+- Persentase materi yang telah dipelajari.
+- Jumlah game yang telah diselesaikan.
+- Bintang kebaikan yang dikumpulkan.
+- Nilai worksheet terakhir.
+- Rekomendasi materi berikutnya.
+
+Sertakan pesan:\
+"Setiap usaha adalah langkah menuju keberhasilan. Terus belajar dan berbuat baik!"
+
+Jangan membuat peringkat publik antarsiswa.
+
+---
+
+# 13. TEKNIS PENGEMBANGAN
+
+Gunakan teknologi web yang sesuai dengan kemampuan Google AI Studio:
+
+- React.
+- TypeScript.
+- CSS modern atau framework styling yang kompatibel.
+- Komponen modular.
+- HTML5 video.
+- Desain responsif.
+- LocalStorage untuk progres sementara.
+- Struktur data soal yang mudah diedit guru.
+
+Pisahkan komponen:
+
+- AppLayout.
+- HomePage.
+- LessonViewer.
+- StoryGallery.
+- VideoPlayer.
+- JourneyMap.
+- GameCenter.
+- Worksheet.
+- ResultsDashboard.
+
+Persyaratan teknis:
+
+1. Jangan hanya membuat halaman landing page.
+2. Implementasikan semua menu utama.
+3. Semua tombol harus memiliki fungsi yang nyata.
+4. Jangan meninggalkan tombol kosong atau placeholder interaksi tanpa penjelasan.
+5. Jangan mengarang URL media.
+6. Tangani kegagalan memuat gambar dan video dengan pesan yang jelas.
+7. Pastikan soal tidak berubah urutannya secara tidak sengaja setelah siswa mulai menjawab.
+8. Pastikan skor dihitung secara konsisten.
+9. Jangan mengirim jawaban siswa ke server eksternal.
+10. Pastikan aplikasi tetap dapat digunakan ketika video tidak tersedia.
+11. Sediakan navigasi keyboard dan teks alternatif untuk gambar.
+12. Hindari dependensi yang tidak diperlukan.
+13. Jangan menggunakan API berbayar tanpa persetujuan.
+14. Jangan mewajibkan API key hanya untuk menjalankan fungsi dasar pembelajaran.
+15. Jangan menyatakan bahwa video atau gambar telah tersedia jika belum benar-benar dapat dimuat.
+
+---
+
+# 14. PEMERIKSAAN KUALITAS SEBELUM SELESAI
+
+Sebelum menyatakan aplikasi selesai, periksa:
+
+- Semua menu dapat dibuka.
+- Materi sejarah konsisten dan mudah dipahami siswa kelas 4.
+- Gambar tidak menampilkan Nabi Muhammad SAW secara langsung.
+- Video memiliki kontrol putar, jeda, volume, dan subtitle jika tersedia.
+- Game dapat dimainkan dan diperiksa.
+- Terdapat tepat 10 soal pilihan ganda.
+- Terdapat tepat 5 soal isian singkat.
+- Distribusi pilihan ganda tepat: 2 LOTS, 5 MOTS, 3 HOTS.
+- Distribusi isian tepat: 3 MOTS dan 2 HOTS.
+- Seluruh kunci pilihan ganda sesuai dengan soal.
+- Penilaian maksimal 100 poin.
+- Jawaban isian HOTS dinilai dengan rubrik yang sesuai.
+- Hasil dan progres diperbarui setelah siswa menyelesaikan aktivitas.
+- Layout tetap nyaman di laptop, tablet, dan smartphone.
+- Tidak ada tombol mati, tautan rekaan, atau error pada navigasi.
+
+Mulailah dengan membangun aplikasi yang lengkap dan dapat digunakan, bukan hanya menjelaskan rencana pembuatannya.
+
+Jika ada aset media yang belum dapat disediakan, tetap selesaikan aplikasi dengan fallback yang layak dan jelaskan bagian yang membutuhkan aset tambahan.
+
+Hasil akhir yang diinginkan adalah media pembelajaran PAI interaktif yang menyenangkan, menghormati sejarah Islam, sesuai usia siswa kelas 4 SD, dan siap dikembangkan lebih lanjut oleh guru.
+
+## Rekomendasi tampilan aplikasi
+
+Berikut gambaran visual yang cocok untuk aplikasi tersebut.
+
+[Middle East or Africa, picturesque bare mountain range and a large sandy valley desert landscapes landscape photography](https://images.openai.com/static-rsc-4/JH9Vu4Pdx5uifp4C7rMwzY3Xa2b7PueQfukspraomeglHVZVVLHBnxTJvG7LQrYJpf78FxF-O5mxNmdK1zFnwIuM90RX-eW8xMihWVgcNS589MywnB81Gt6kbA883K6Feba_S5LTfFkRObiUs8gzdlVN_OjBwymH_dNRdwtdoIVSODimTECMcATLzu-VONAD?purpose=inline)
+
+1\. Cerita visual sejarah
+
+Gunakan lanskap gurun dan pegunungan alami dengan narasi pendek, tombol interaktif, dan pertanyaan di setiap adegan.
+
+[Antara Yastrib dan Madinah: Awalnya Umat Nabi Nuh Tinggal di Sini](https://images.openai.com/static-rsc-4/XsQfQT3a989FGOK3Y23--a7_STF4evVz28hhEHgmik0_l44TUmK2LWNsd56hraqSRgJAWN1NCvF7z8Kld7nlTIWT7NzKhL93Y1LvOSi9h_CKJxbuwq2va3EXOokFxnMw6gF1i9IVxiu4aeR28wLYuLy_olKdnTH90tE134g7Ubs?purpose=inline)
+
+2\. Suasana Madinah
+
+Tampilkan oasis, rumah sederhana, dan lingkungan permukiman tradisional. Beri keterangan bahwa visual merupakan ilustrasi suasana masa lalu.
+
+[Why Was the Silk Road Dangerous: Perils of Ancient Trade Routes - Voices From History](https://images.openai.com/static-rsc-4/dc9RvvCIBumtlcYidoWAonqBZel4AozU-S2JbOQ9g5O79tIAS1LsZM6kZCuFU3cJlJtAO1aiXVqmU5yc7F1R4A3q3J4V7fhuRvEINiZqmDwlZH4M5PDIWyYQTDPc7C3KOo6WOweSNEc-jgoNjiKI0icMqPmf_RpcIsBPwpIBnVg?purpose=inline)
+
+3\. Peta dan petualangan
+
+Siswa menekan titik perjalanan, menjawab pertanyaan, mengumpulkan bintang, dan membuka bab berikutnya.
+
+Gambar di atas adalah referensi gaya visual, bukan aset yang otomatis masuk ke aplikasi Google AI Studio.
+
+## Cara membuatnya di Google AI Studio
+
+1. Buka Google AI Studio melalui [aistudio.google.com](https://aistudio.google.com/?utm_source=chatgpt.com).
+2. Masuk ke fitur pembuatan aplikasi, seperti Build, jika tersedia pada akunmu.
+3. Salin seluruh prompt di atas dan kirimkan.
+4. Tunggu aplikasi dibuat, lalu uji semua menu, game, worksheet, dan penilaiannya.
+5. Periksa bagian gambar dan video secara terpisah. AI Studio mungkin menghasilkan kode pemutar video tanpa menyediakan file videonya secara otomatis.
+6. Jika hasil pertama belum lengkap, kirim prompt revisi di bawah.
+
+### Prompt revisi setelah aplikasi pertama selesai
+
+Lakukan audit menyeluruh terhadap aplikasi Hijrah Adventure yang sudah dibuat.
+
+Jangan membuat ulang desain dari nol jika struktur sebelumnya sudah baik. Perbaiki implementasi yang belum berfungsi.
+
+Prioritaskan:
+
+1. Pastikan seluruh menu dan navigasi bekerja.
+2. Pastikan game susun urutan, mencocokkan tokoh, dan misi nilai hijrah dapat dimainkan.
+3. Pastikan worksheet berisi tepat 10 pilihan ganda dan 5 isian singkat sesuai pembagian LOTS, MOTS, dan HOTS yang telah ditentukan.
+4. Pastikan penilaian menghasilkan skor maksimal 100 dan jawaban HOTS diperiksa menggunakan rubrik.
+5. Pastikan gambar dan video memiliki sumber valid serta fallback yang berfungsi.
+6. Pastikan tidak ada visualisasi langsung Nabi Muhammad SAW.
+7. Uji tampilan pada layar laptop, iPad, dan smartphone.
+8. Perbaiki error TypeScript, React, navigasi, penyimpanan progres, serta perhitungan nilai.
+9. Pastikan tombol ulangi benar-benar mengatur ulang aktivitas yang sesuai.
+10. Jangan menambahkan fitur yang tidak diperlukan atau mengubah kunci jawaban tanpa alasan.
+
+Tampilkan aplikasi yang telah diperbaiki dan jelaskan secara singkat fitur mana yang sudah berfungsi serta aset media mana yang masih perlu disediakan.
+
+Saran saya: prioritaskan aplikasi yang sudah memiliki materi, gambar, game, dan worksheet berfungsi dengan baik. Setelah itu, tambahkan video yang sudah terverifikasi. Dengan cara ini, media pembelajaran tetap bisa digunakan di kelas meskipun koneksi internet atau pemuatan video sedang bermasalah.
